@@ -61,6 +61,12 @@ NAVIGATION
     color: #00B4FF;
 }
 
+@media (min-width: 500px) {
+    .nav-text {
+        min-width: 500px;
+    }
+}
+
 @media (min-width: 980px) {
     .options-mobile {
         display: none;
