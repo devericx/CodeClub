@@ -135,7 +135,7 @@ JUMBOTRON
     height: 300px;
     width: 100%;
     background-color: #bd5ae7;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .jumbotron-announcements h2 {
@@ -172,7 +172,7 @@ ANNOUNCEMENTS
     height: auto;
     background-color: #616161;
     border-radius: 7px;
-    margin-bottom: 18px;
+    margin: 0 auto 18px;
 }
 
 .box h4 {
