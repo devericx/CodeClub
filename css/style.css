@@ -29,7 +29,7 @@ NAVIGATION
 }
 
 .nav h4 {
-    color: #B276CC;
+    color: #bd5ae7;
     padding-bottom: 0;
     margin-bottom: 8px;
 }
@@ -58,7 +58,7 @@ NAVIGATION
 }
 
 .options-mobile li a:hover {
-    color: #B276CC;
+    color: #bd5ae7;
 }
 
 @media (min-width: 500px) {
@@ -103,7 +103,7 @@ NAVIGATION
     }
 
     .options li a:hover {
-        color: #B276CC;
+        color: #bd5ae7;
     }
 }
 
@@ -114,7 +114,7 @@ JUMBOTRON
 .jumbotron {
     height: 300px;
     width: 100%;
-    background-color: #B276CC;
+    background-color: #bd5ae7;
 }
 
 .jumbotron h2 {
