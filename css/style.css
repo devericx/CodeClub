@@ -198,5 +198,13 @@ PROJECTS
 
 .prj {
     min-width: 32%;
-    margin-left: 2.0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 500px) {
+    .prj {
+        min-width: 32%;
+        margin-left: 2.0%;
+    }
 }
