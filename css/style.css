@@ -14,6 +14,14 @@ body {
     transform: translateY(-50%);
 }
 
+.center-text {
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+}
+
 
 /****************************
 NAVIGATION
@@ -26,6 +34,7 @@ NAVIGATION
 .nav {
     height: 100px;
     position: relative;
+    border-bottom: solid 1px transparent;
 }
 
 .nav h4 {
@@ -53,7 +62,7 @@ NAVIGATION
 
 .options-mobile li a {
     text-decoration: none;
-    color: black;
+    color: #333;
     font-size: 1em;
 }
 
@@ -92,13 +101,13 @@ NAVIGATION
         display: inline;
     }
 
-    .options li:nth-child(-n+3) {
+    .options li:nth-child(-n+2) {
         padding-right: 18px;
     }
 
     .options li a {
         text-decoration: none;
-        color: black;
+        color: #333;
         font-size: 1.15em;
     }
 
@@ -122,9 +131,21 @@ JUMBOTRON
     font-weight: 400;
 }
 
+.jumbotron-announcements {
+    height: 300px;
+    width: 100%;
+    background-color: #bd5ae7;
+    margin-bottom: 20px;
+}
+
+.jumbotron-announcements h2 {
+    color: white;
+    font-weight: 400;
+}
+
 
 /****************************
-CONTENT
+HOME PAGE CONTENT
 *****************************/
 
 .about p {
@@ -141,4 +162,41 @@ CONTENT
 
 .mission h4 {
     margin: 20px 0 5px;
+}
+
+/****************************
+ANNOUNCEMENTS
+*****************************/
+
+.box {
+    height: auto;
+    background-color: #616161;
+    border-radius: 7px;
+    margin-bottom: 18px;
+}
+
+.box h4 {
+    color: white;
+    padding: 16px 16px 3px 16px;
+    margin-bottom: 0;
+    line-height: 120%;
+}
+
+
+.box p {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 14px 9px 16px;
+    line-height: 140%;
+}
+
+
+/****************************
+PROJECTS
+*****************************/
+
+.prj {
+    min-width: 32%;
+    margin-left: 2.0%;
 }
