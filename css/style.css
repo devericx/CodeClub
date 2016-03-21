@@ -124,6 +124,7 @@ JUMBOTRON
     height: 300px;
     width: 100%;
     background-color: #bd5ae7;
+    border-bottom: solid 1px #e9f0f3;
 }
 
 .jumbotron h2 {
@@ -132,14 +133,15 @@ JUMBOTRON
 }
 
 .jumbotron-announcements {
-    height: 300px;
+    height: 150px;
     width: 100%;
-    background-color: #bd5ae7;
+    background: url("https://static.teamtreehouse.com/assets/layouts/header-bg-79bb2f87d039deac52bbbba1e0530455.svg");
     margin-bottom: 30px;
+    border-bottom: solid 1px #e9f0f3;
 }
 
 .jumbotron-announcements h2 {
-    color: white;
+    color: black;
     font-weight: 400;
 }
 
