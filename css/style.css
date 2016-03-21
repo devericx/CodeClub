@@ -4,6 +4,7 @@ GENERAL
 
 body {
     font-family: "Varela Round", sans-serif;
+    background-color: #fff;
 }
 
 .vert-align {
@@ -22,6 +23,10 @@ body {
     margin: 0 auto;
 }
 
+.grey {
+    background-color: #edeff0;
+}
+
 
 /****************************
 NAVIGATION
@@ -34,6 +39,7 @@ NAVIGATION
 .nav-container {
     width: 100%;
     border-bottom: 1px solid #e9f0f3;
+    background-color: white;
 }
 
 .nav {
@@ -140,6 +146,7 @@ JUMBOTRON
     height: 150px;
     width: 100%;
     background: url("https://static.teamtreehouse.com/assets/layouts/header-bg-79bb2f87d039deac52bbbba1e0530455.svg");
+    background-color: white;
     margin-bottom: 30px;
     border-bottom: solid 1px #e9f0f3;
 }
@@ -222,10 +229,11 @@ CARD
 .card {
     height: auto;
     width: 100%;
-    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.014), 0 1px 8px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
     background-color: white;
     margin: 0.5rem 0 1rem 0;
-    border: 1px solid #e9f0f3;
+    /*border: 1px solid #e9f0f3;*/
 }
 
 .card-content {
@@ -234,16 +242,16 @@ CARD
 
 .card-content h5 {
     margin: 0;
-    padding: 10px 0 5px 13px;
+    padding: 16px 0 5px 16px;
     line-height: 105%;
 }
 
 .card-content p {
     margin: 0;
-    padding: 0 0 10px 13px;
+    padding: 0 0 10px 16px;
 }
 
 .card-action p {
     margin: 0;
-    padding: 5px 0 5px 13px;
+    padding: 10px 0 10px 16px;
 }
