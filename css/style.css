@@ -138,7 +138,7 @@ JUMBOTRON
 }
 
 .jumbotron h2 {
-    color: white;
+    color: #fff;
     font-weight: 400;
 }
 
@@ -152,7 +152,7 @@ JUMBOTRON
 }
 
 .jumbotron-announcements h2 {
-    color: black;
+    color: #333;
     font-weight: 400;
 }
 
@@ -229,7 +229,7 @@ CARD
 .card {
     height: auto;
     width: 100%;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.014), 0 1px 8px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.01), 0 1px 6px 0 rgba(0, 0, 0, 0.16);
     border-radius: 4px;
     background-color: white;
     margin: 0.5rem 0 1rem 0;
@@ -241,8 +241,9 @@ CARD
 }
 
 .card-content h5 {
+    color: #14CC78;
     margin: 0;
-    padding: 16px 0 5px 16px;
+    padding: 15px 0 5px 16px;
     line-height: 105%;
 }
 
