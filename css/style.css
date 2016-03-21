@@ -40,6 +40,8 @@ NAVIGATION
     width: 100%;
     border-bottom: 1px solid #e9f0f3;
     background-color: white;
+    position: fixed;
+    z-index: 1;
 }
 
 .nav {
@@ -135,6 +137,7 @@ JUMBOTRON
     width: 100%;
     background-color: #bd5ae7;
     border-bottom: solid 1px #e9f0f3;
+    padding-top: 100px;
 }
 
 .jumbotron h2 {
@@ -149,6 +152,7 @@ JUMBOTRON
     background-color: white;
     margin-bottom: 30px;
     border-bottom: solid 1px #e9f0f3;
+    padding-top: 100px;
 }
 
 .jumbotron-announcements h2 {
@@ -206,23 +210,6 @@ ANNOUNCEMENTS
 
 
 /****************************
-PROJECTS
-*****************************/
-
-.prj {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media (min-width: 550px) {
-    .prj {
-        min-width: 32%;
-        margin-left: 2.0%;
-    }
-}
-
-
-/****************************
 CARD
 *****************************/
 
@@ -232,8 +219,14 @@ CARD
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.01), 0 1px 6px 0 rgba(0, 0, 0, 0.16);
     border-radius: 4px;
     background-color: white;
-    margin: 0.5rem 0 1rem 0;
+    margin: 0.5rem 0 2rem auto;
     /*border: 1px solid #e9f0f3;*/
+}
+
+@media (min-width: 550px) {
+    .card {
+        margin: 0.5rem 0 2rem 4%;
+    }
 }
 
 .card-content {
@@ -243,16 +236,16 @@ CARD
 .card-content h5 {
     color: #14CC78;
     margin: 0;
-    padding: 15px 0 5px 16px;
+    padding: 15px 16px 5px 16px;
     line-height: 105%;
 }
 
 .card-content p {
     margin: 0;
-    padding: 0 0 10px 16px;
+    padding: 0 16px 10px 16px;
 }
 
 .card-action p {
     margin: 0;
-    padding: 10px 0 10px 16px;
+    padding: 10px 16px 10px 16px;
 }
