@@ -236,7 +236,7 @@ CARD
 
 .card-content h5 {
     color: #14CC78;
-    margin: 0;
+    margin-bottom: 2px;
     padding: 15px 16px 5px 16px;
     line-height: 105%;
 }
