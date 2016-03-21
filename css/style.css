@@ -31,10 +31,14 @@ NAVIGATION
     display: none;
 }
 
+.nav-container {
+    width: 100%;
+    border-bottom: 1px solid #e9f0f3;
+}
+
 .nav {
     height: 100px;
     position: relative;
-    border-bottom: solid 1px transparent;
 }
 
 .nav h4 {
@@ -43,9 +47,9 @@ NAVIGATION
     margin-bottom: 8px;
 }
 
-.nav-text {
+/*.nav-text {
     min-width: 100%;
-}
+}*/
 
 .options {
     display: none;
