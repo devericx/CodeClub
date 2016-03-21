@@ -175,7 +175,6 @@ HOME PAGE CONTENT
 
 .mission {
     float: right;
-    bottom: 300px;
     position: relative;
 }
 
@@ -277,12 +276,18 @@ SIGN-UP
         bottom: 300px;
     }
 
+    .mission {
+        float: right;
+        bottom: 300px;
+        position: relative;
+    }
+
     .sign-up {
         padding: 30px;
         border-radius: 5px;
         text-align: left;
         background-color: white;
-        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
     }
 
     .code {
