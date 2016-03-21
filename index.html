@@ -28,6 +28,22 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
 
+    <!-- Scripts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+    <script src="js/typed.js"></script>
+    <script>
+        $(function(){
+            $("#typed").typed({
+                strings: ["<span class='green'>print</span>(<span class='orange'>\"Welcome to CodeClub\"</span>)", "<span class='green'>printf</span>(<span class='orange'>\"Welcome to CodeClub\"</span>);", "<span class='green'>puts</span>(<span class='orange'>\"Welcome to CodeClub\"</span>)"],
+                typeSpeed: 0.00001,
+                startDelay: 500,
+                loop: true,
+                backDelay: 4000
+            });
+        });
+    </script>
+
 </head>
 <body>
 
@@ -68,7 +84,9 @@
             </div>
             <div class="one-half column" style="height: 300px" id="cody">
                 <div class="sign-up vert-align">
-                    <h5 class="code"><span style="color: #FFB419">print</span>(<span style="color: #14CC78">"Welcome to CodeClub"</span>)</h5>
+                    <div class="code-text">
+                        <span id="typed"></span>
+                    </div>
                 </div>
             </div>
         </div>

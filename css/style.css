@@ -290,10 +290,49 @@ SIGN-UP
         box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
     }
 
-    .code {
+    .code-text {
         font-family: "Source Code Pro", monospace;
+        font-size: 1.35em;
         margin: 0;
         padding: 0;
         text-align: center;
     }
+}
+
+/****************************
+TYPED.JS
+*****************************/
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.green {
+    color: #14CC78;
+}
+
+.orange {
+    color: #FFB419;
+}
+
+.d-purple {
+    color: #8312B2;
 }
