@@ -174,7 +174,9 @@ HOME PAGE CONTENT
 }
 
 .mission {
-
+    float: right;
+    bottom: 300px;
+    position: relative;
 }
 
 .mission h4 {
