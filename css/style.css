@@ -174,8 +174,8 @@ HOME PAGE CONTENT
 }
 
 .mission {
-    float: right;
-    position: relative;
+    /*float: right;
+    position: relative;*/
 }
 
 .mission h4 {
@@ -260,8 +260,10 @@ SIGN-UP
     display: none;
 }
 
-#promise {
-    min-width: 100%;
+@media (min-width: 500px) {
+    #promise {
+        min-width: 100%;
+    }
 }
 
 @media (min-width: 800px) {
@@ -270,15 +272,8 @@ SIGN-UP
     }
 
     #cody {
+        margin-left: 2%;
         display: block;
-        position: relative;
-        float: right;
-        bottom: 300px;
-    }
-
-    .mission {
-        float: right;
-        bottom: 300px;
         position: relative;
     }
 
