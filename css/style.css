@@ -249,3 +249,44 @@ CARD
     margin: 0;
     padding: 10px 16px 10px 16px;
 }
+
+
+/****************************
+SIGN-UP
+*****************************/
+
+#cody {
+    display: none;
+}
+
+#promise {
+    min-width: 100%;
+}
+
+@media (min-width: 800px) {
+    #promise {
+        min-width: 50%;
+    }
+
+    #cody {
+        display: block;
+        position: relative;
+        float: right;
+        bottom: 300px;
+    }
+
+    .sign-up {
+        padding: 30px;
+        border-radius: 5px;
+        text-align: left;
+        background-color: white;
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .code {
+        font-family: "Source Code Pro", monospace;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}
