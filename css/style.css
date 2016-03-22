@@ -364,7 +364,7 @@ BUTTONS
     border: 1px solid #e9f0f3;
     border-right: none;
     border-left: none;
-    padding: 18px;
+    padding: 16px;
     position: relative;
     bottom: 22px;
     background-color: white;
@@ -402,7 +402,7 @@ BUTTONS
     margin: 0;
     padding: 0;
     line-height: 0;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #14CC78;
     letter-spacing: 0.5px;
     transition: color 0.3s ease;
