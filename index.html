@@ -97,15 +97,28 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="six columns about">
+        <div class="twelve columns about">
             <h4>About</h4>
             <p>Founded in 2016, CodeClub brings together the bright minds of Chantilly High School and advocates the
                 importance of critical thinking, along with fun, passion, and desire. We envision a community of
                 thinkers, learning and growing, but most importantly, creating. CodeClub is as much about programming as
                 it is about fun, team-work, and community.</p>
         </div>
-        <div class="six columns mission">
+    </div>
+    <div class="row">
+        <div class="twelve columns mission">
             <h4>Our Mission</h4>
+            <p>We began this club after realizing the immense untapped potential of the students here at Chantilly in
+                the field of Computer Science. We found that many intelligent, bright, and innovative minds were not
+                truly being put to the test in the regular rigors of high school. As a result, we decided to organize
+                the Chantilly CodeClub to build a community in which the current generation of Chantilly Chargers and
+                future generations of Chantilly Chargers could use to solve problems in their respective
+                communities.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns curr">
+            <h4>Curriculum</h4>
             <p>We began this club after realizing the immense untapped potential of the students here at Chantilly in
                 the field of Computer Science. We found that many intelligent, bright, and innovative minds were not
                 truly being put to the test in the regular rigors of high school. As a result, we decided to organize
@@ -129,6 +142,36 @@
             loop: true,
             backDelay: 4000
         });
+    });
+
+    $("#about-button").click(function() {
+        $("#about-button").addClass("current-button");
+        $("#mission-button").removeClass("current-button");
+        $("#curr-button").removeClass("current-button");
+
+        $(".about").show();
+        $(".mission").hide();
+        $(".curr").hide();
+    });
+
+    $("#mission-button").click(function() {
+        $("#mission-button").addClass("current-button");
+        $("#about-button").removeClass("current-button");
+        $("#curr-button").removeClass("current-button");
+
+        $(".mission").show();
+        $(".about").hide();
+        $(".curr").hide();
+    });
+
+    $("#curr-button").click(function() {
+        $("#curr-button").addClass("current-button");
+        $("#mission-button").removeClass("current-button");
+        $("#about-button").removeClass("current-button");
+
+        $(".curr").show();
+        $(".mission").hide();
+        $(".about").hide();
     });
 </script>
 </body>

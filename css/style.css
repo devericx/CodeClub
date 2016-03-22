@@ -173,13 +173,26 @@ HOME PAGE CONTENT
     margin: 20px 0 5px;
 }
 
-.mission {
-    /*float: right;
-    position: relative;*/
-}
-
 .mission h4 {
     margin: 20px 0 5px;
+}
+
+.mission p {
+    margin-bottom: 0;
+}
+
+.curr h4 {
+    margin: 20px 0 5px;
+}
+
+/*BY DEFAULT BUTTON*/
+
+.mission {
+    display: none;
+}
+
+.curr {
+    display: none;
 }
 
 /****************************
@@ -341,15 +354,19 @@ BUTTONS
     position: relative;
     text-align: center;
     /*border: 1px solid black;*/
+    max-width: 80%;
+    margin-left: 10%;
 }
 
 .my-button {
     margin: 0;
-    display: inline;
-    border: 2px solid #14CC78;
-    padding: 16px 22px 11px 22px;
+    display: block;
+    border: 1px solid #e9f0f3;
+    border-right: none;
+    border-left: none;
+    padding: 18px;
     position: relative;
-    bottom: 11px;
+    bottom: 22px;
     background-color: white;
 
     /*NO SELECT STUFF*/
@@ -362,47 +379,98 @@ BUTTONS
 
 .my-button:first-of-type {
     position: relative;
-    left: 0.5px;
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px 5px 0 0;
+    border-top: none;
 }
 
 .my-button:last-of-type {
     position: relative;
-    right: 0.5px;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+    border-bottom: none;
 }
 
 .my-button:nth-of-type(2) {
     padding-right: 15px;
-    border-right: none;
-    border-left: none;
+    border-top: none;
+    border-bottom: none;
 }
 
 .my-button p {
     text-align: center;
-    display: inline;
+    display: block;
     margin: 0;
     padding: 0;
     line-height: 0;
     font-size: 1.2em;
     color: #14CC78;
     letter-spacing: 0.5px;
-    transition: color 200ms;
-    -webkit-transition: color 200ms;
+    transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
 }
 
 .my-button:hover {
     cursor: pointer;
 }
 
-.my-button p:hover {
-    color: #11B269;
+.my-button:hover p {
+    color: #0E8C52;
 }
+
 
 .current-button {
     background-color: #14CC78;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.15);
 }
 
 .current-button p {
     color: white;
+}
+
+.current-button:hover p {
+    color: white;
+}
+
+@media (min-width: 550px) {
+    .page-buttons {
+        max-width: 100%;
+    }
+
+    .my-button {
+        display: inline;
+        border: 2px solid #14CC78;
+        box-shadow: none;
+        bottom: 14px;
+    }
+
+    .my-button:first-of-type {
+        position: relative;
+        border-radius: 5px 0 0 5px;
+        border: 2px solid #14CC78;
+    }
+
+    .my-button:last-of-type {
+        position: relative;
+        border-radius: 0 5px 5px 0;
+        box-shadow: none;
+        border: 2px solid #14CC78;
+    }
+
+    .my-button:nth-of-type(2) {
+        padding-right: 15px;
+        border: 2px solid #14CC78;
+        border-right: none;
+        border-left: none;
+    }
+
+    .my-button p {
+        display: inline;
+    }
+    .current-button {
+        background-color: #14CC78;
+    }
+
+    .current-button p {
+        color: white;
+    }
 }
