@@ -6,7 +6,7 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
     <title>CodeClub | Home</title>
-    <meta name="description" content="The Chantilly High School CodeClub Official Website">
+    <meta name="description" content="The Official Website of the Chantilly High School Code Club">
     <meta name="author" content="Eric Kim, Dominic Philip, Dheeraj Bandaru">
 
     <!-- Mobile Specific Metas
@@ -30,19 +30,7 @@
 
     <!-- Scripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
-    <script src="js/typed.js"></script>
-    <script>
-        $(function(){
-            $("#typed").typed({
-                strings: ["<span class='green'>print</span>(<span class='orange'>\"Welcome to CodeClub\"</span>)", "<span class='green'>printf</span>(<span class='orange'>\"Welcome to CodeClub\"</span>);", "<span class='green'>puts</span> <span class='orange'>\"Welcome to CodeClub\"</span>", "<span class='green'>alert</span>(<span class='orange'>\"Welcome to CodeClub\"</span>);"],
-                typeSpeed: 0.00001,
-                startDelay: 500,
-                loop: true,
-                backDelay: 4000
-            });
-        });
-    </script>
+
 
 </head>
 <body>
@@ -94,17 +82,54 @@
 </div>
 <div class="container">
     <div class="row">
+        <div class="twelve columns page-buttons">
+            <div class="my-button current-button" id="about-button">
+                <p>About</p>
+            </div>
+            <div class="my-button" id="mission-button">
+                <p>Our Mission</p>
+            </div>
+            <div class="my-button" id="curr-button">
+                <p>Curriculum</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
         <div class="six columns about">
             <h4>About</h4>
-            <p>Founded in 2016, CodeClub brings together the bright minds of Chantilly High School and advocates the importance of critical thinking, along with fun, passion, and desire. We envision a community of thinkers, learning and growing, but most importantly, creating. CodeClub is as much about programming as it is about fun, team-work, and community.</p>
+            <p>Founded in 2016, CodeClub brings together the bright minds of Chantilly High School and advocates the
+                importance of critical thinking, along with fun, passion, and desire. We envision a community of
+                thinkers, learning and growing, but most importantly, creating. CodeClub is as much about programming as
+                it is about fun, team-work, and community.</p>
         </div>
         <div class="six columns mission">
             <h4>Our Mission</h4>
-            <p>We began this club after realizing the immense untapped potential of the students here at Chantilly in the field of Computer Science. We found that many intelligent, bright, and innovative minds were not truly being put to the test in the regular rigors of high school. As a result, we decided to organize the Chantilly CodeClub to build a community in which the current generation of Chantilly Chargers and future generations of Chantilly Chargers could use to solve problems in their respective communities.</p>
+            <p>We began this club after realizing the immense untapped potential of the students here at Chantilly in
+                the field of Computer Science. We found that many intelligent, bright, and innovative minds were not
+                truly being put to the test in the regular rigors of high school. As a result, we decided to organize
+                the Chantilly CodeClub to build a community in which the current generation of Chantilly Chargers and
+                future generations of Chantilly Chargers could use to solve problems in their respective
+                communities.</p>
         </div>
     </div>
 </div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"
+        integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+<script src="js/typed.js"></script>
+<script>
+    $(function () {
+        $("#typed").typed({
+            strings: ["<span class='orange'>print</span>(<span class='green'>\"Welcome to CodeClub\"</span>)", "<span class='orange'>printf</span>(<span class='green'>\"Welcome to CodeClub\"</span>);", "<span class='orange'>puts</span> <span class='green'>\"Welcome to CodeClub\"</span>"],
+            typeSpeed: 0.00001,
+            startDelay: 500,
+            loop: true,
+            backDelay: 4000
+        });
+    });
+</script>
 </body>
 </html>
