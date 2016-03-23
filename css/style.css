@@ -166,7 +166,7 @@ HOME PAGE CONTENT
 *****************************/
 
 .about p {
-    margin: 0;
+    margin-bottom: 10px;
 }
 
 .about h4 {
@@ -178,11 +178,19 @@ HOME PAGE CONTENT
 }
 
 .mission p {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .curr h4 {
     margin: 20px 0 5px;
+}
+
+.curr p {
+    margin-bottom: 10px;
+}
+
+p:last-of-type {
+    margin-bottom: 15px;
 }
 
 /*BY DEFAULT BUTTON*/
