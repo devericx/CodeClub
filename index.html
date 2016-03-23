@@ -195,6 +195,13 @@
         $(".about").hide();
     });
 
+    $(window).resize(function(){
+        if($(this).width() > 550){
+            $(".my-button:last-of-type").css("box-shadow", "0 0 0 rgba(0, 0, 0, 0.15)");
+        }
+        else $(".my-button:last-of-type").css("box-shadow", "0 2px 0 rgba(0, 0, 0, 0.15)");
+    });
+
 </script>
 </body>
 </html>
