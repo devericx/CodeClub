@@ -1,3 +1,3 @@
 # Chantilly Code Club
 
-Website source code is in `gh-pages` branch.
+Website source code is in the `gh-pages` branch.
